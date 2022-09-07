@@ -1,0 +1,11 @@
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    height: 40px;
+}
+
+button {
+    background-color: rgb(233, 160, 42);
+}

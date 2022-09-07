@@ -1,4 +1,3 @@
-import { toBePartiallyChecked } from '@testing-library/jest-dom/dist/matchers';
 import React from 'react';
 import Card from './Card';
 import './Trix.css';
