@@ -1,7 +1,6 @@
 import { Component } from 'react';
 import getTrix from '../../apiCalls';
 import Trix from './Trix';
-import Form from './Form';
 import './App.css';
 
 class App extends Component {
@@ -25,10 +24,14 @@ class App extends Component {
       })
   }
 
+  componentDidMount = () => this.getAllTrix()
+
+
   render() {
     return (
       <div className="App">
         <h1>Sick Trick Wish List</h1>
+        <Trix allTrix={this.state.trix}/>
       </div>
     );
   }
